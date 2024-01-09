@@ -1,0 +1,33 @@
+\documentclass[12pt,letterpaper]{report}
+\usepackage{init}
+\usepackage{import}
+
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\dist}{\text{dist}}
+\newcommand{\lcm}{\text{lcm}}
+\newcommand{\characteristic}{\text{char }}
+\newcommand{\gf}{\text{GF}}
+\newcommand{\fix}{\text{fix}}
+\newcommand{\gal}{\text{Gal}}
+\setcounter{chapter}{-1}
+\author{Alexander J. Clarke}
+\title{Abstract Algebra Theorems and Definitions}
+\begin{document}
+\maketitle
+\clearpage
+\begin{center}
+	\thispagestyle{empty}
+	\vspace*{\fill}
+	All theorems, corollaries, lemmas, remarks, and asides are direct quotes from Contemporary Abstract Algebra, 8th Edition, by Joseph A. Gallian
+	\vspace*{\fill}
+\end{center}
+\tableofcontents
+
+\import{part-1/}{part-1.tex}
+\import{part-2/}{part-2.tex}
+\import{part-3/}{part-3.tex}
+\import{part-4/}{part-4.tex}
+\import{part-5/}{part-5.tex}
+
+\end{document}
